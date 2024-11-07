@@ -19,6 +19,7 @@ class Sensor {
 
   sendData() {
     //testing
+    //New line was added
     // Logic to send sensor data to the relevant system
   }
 }
