@@ -27,5 +27,6 @@ class Crop {
 
   harvest() {
     // Logic to harvest the crop and update the yield
+    //Logic to update the growth stage
   }
 }
