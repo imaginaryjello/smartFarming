@@ -12,14 +12,18 @@ class Sensor {
   }
 
   collectData() {
-    // Logic to collect data from the sensor
-    this.data = {}; // Sample placeholder
+    // Simulate data collection
+    this.data = { temperature: 25, humidity: 60 }; // Example simulated data
     this.lastUpdated = new Date();
   }
 
   sendData() {
-    //testing
-    //New line was added
-    // Logic to send sensor data to the relevant system
+    // Logic to send sensor data to a remote system
+    console.log(
+      `Sending data from ${this.sensorType} at ${this.location}:`,
+      this.data
+    );
   }
 }
+
+export default Sensor;

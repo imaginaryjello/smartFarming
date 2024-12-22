@@ -17,6 +17,5 @@ class FarmManager {
 
   viewDashboard(dashboardData: any) {
     // Logic to view farm management dashboard
-    // Logic to view farm management dashboard
   }
 }

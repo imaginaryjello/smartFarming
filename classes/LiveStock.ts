@@ -23,9 +23,16 @@ class Livestock {
 
   monitorHealth() {
     // Logic to monitor health status
+    // This could involve checking sensors, health reports, etc.
+    console.log(`Monitoring health status of livestock ${this.id}`);
   }
 
   feed() {
     // Logic to apply the diet plan
+    console.log(
+      `Feeding livestock ${this.id} with diet plan: ${this.dietPlan}`
+    );
   }
 }
+
+export { Livestock };

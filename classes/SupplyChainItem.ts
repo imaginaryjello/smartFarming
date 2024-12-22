@@ -18,10 +18,12 @@ class SupplyChainItem {
 
   updateStock(newQuantity: number) {
     this.quantity = newQuantity;
-    // Logic to update stock
+    console.log(`Updated stock for ${this.itemName}: ${this.quantity}`);
   }
 
   trackShipment() {
-    // Logic to track item shipment
+    console.log(`Tracking shipment for ${this.itemName}`);
+    // Logic to track shipment
   }
 }
+export { SupplyChainItem };

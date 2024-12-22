@@ -12,10 +12,18 @@ class IrrigationSystem {
   }
 
   startIrrigation() {
-    // Logic to start irrigation based on moisture levels
+    console.log(`Irrigation started in zone: ${this.zone}`);
   }
 
   adjustWatering(weatherData: any) {
-    // Logic to adjust watering schedule based on weather forecast
+    if (weatherData.forecast === "rainy") {
+      console.log(
+        `Watering schedule adjusted in zone: ${this.zone} due to forecast: ${weatherData.forecast}`
+      );
+    } else {
+      console.log(`No adjustments needed for zone: ${this.zone}`);
+    }
   }
 }
+
+export default IrrigationSystem;

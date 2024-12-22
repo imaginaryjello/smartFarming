@@ -17,10 +17,14 @@ class WeatherStation {
   }
 
   collectData() {
-    // Logic to collect weather data
+    console.log("Collecting weather data...");
+    // Logic to collect weather data, e.g., fetching data from external API
   }
 
   predictWeather() {
-    // Logic to predict weather based on collected data
+    console.log("Predicting weather based on collected data...");
+    // Logic to predict weather based on temperature, humidity, and wind speed
   }
 }
+
+export { WeatherStation };
